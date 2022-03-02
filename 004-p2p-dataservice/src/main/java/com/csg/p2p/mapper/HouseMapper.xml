@@ -75,7 +75,8 @@
 			#{houseOriented},
 			#{houseDetailsImg},
 			#{publisher},
-			NOW()
+			NOW(),
+			#{passAudit}
 		)
 	</insert>
 	
